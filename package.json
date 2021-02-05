@@ -1,0 +1,23 @@
+{
+  "name": "seva-charitable-trust-website",
+  "version": "1.0.0",
+  "description": "https://www.figma.com/file/msILcAEY9LVSMenUs2zRs2/SEVA-FINAL?node-id=0%3A1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w sass/styles.scss -o dist/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaswanthReddyPadala/seva-charitable-trust-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaswanthReddyPadala/seva-charitable-trust-website/issues"
+  },
+  "homepage": "https://github.com/JaswanthReddyPadala/seva-charitable-trust-website#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
