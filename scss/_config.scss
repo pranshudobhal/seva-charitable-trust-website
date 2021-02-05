@@ -1,4 +1,38 @@
-* {
+*, *::after, *::before {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  // border: 1px solid black;
+}
+
+@media screen and (max-width:1200x){
+  html{
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width:1600px){
+  html{
+    font-size: 16px;
+  }
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+.flex{
+  display: flex;
+}
+.justify-center{
+  justify-content: center;
+}
+
+.align-center{
+  align-items: center;
+}
+
+ul{
+  list-style: none;
 }
