@@ -78,7 +78,8 @@ margin-top: 10px;
 }
 // footer
 footer{
-    width:100vw;    
+    width:100vw;
+    overflow-x: hidden;    
 }
 
 .footer-illustration{
@@ -348,7 +349,7 @@ footer{
 
 
     .footer-content{
-        grid-template-columns: 100%;
+        grid-template-columns: 80%;
         grid-template-rows: max-content max-content max-content max-content max-content;
         .footer-page-links, .f-address, .f-enquires, .social-links, .copyrights{
             grid-column: 1/2;
@@ -368,17 +369,20 @@ footer{
         }
 
         .social-links{
-            grid-row: 4/5;
+            grid-row: 1/5;
+            grid-column: 2/3;
             justify-content: center;
             ul{ 
                 height: 4rem;
+                display: flex;
+                flex-direction: column;
              }
             .social-link{
-                
+                margin-bottom: 30px;;
                 
                 a{
                     img{
-                        width:15px;
+                        width:25px;
                         height:15px;
                     }
                 }
@@ -389,6 +393,7 @@ footer{
 
         .copyrights{
             grid-row: 5/6;
+            grid-column: 1/3;
         }
     }
 }
