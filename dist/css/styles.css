@@ -44,11 +44,14 @@ header {
   display: block;
   padding: 1vh calc(100% - 95%);
   justify-content: space-between;
+  position: fixed;
+  background-color: #fafafa;
+  width: 100vw;
 }
 
 .logo {
-  width: 100px;
-  height: 120px;
+  width: 80px;
+  height: 100px;
   margin-top: 10px;
 }
 
@@ -99,7 +102,8 @@ header {
 
 .empty {
   height: 1000px;
-  width: 100vh;
+  width: 100vw;
+  background-color: pink;
 }
 
 footer {
